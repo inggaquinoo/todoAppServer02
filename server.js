@@ -15,6 +15,17 @@ cloudinary.config({
 
 connectDatabase();
 
+/* LO ANTIGUO
 app.listen(process.env.PORT,()=>{
     console.log("Server is running on port -> " + process.env.PORT);
 });
+*/
+
+//LO NUEVO
+const PORT = process.env.PORT || 4000
+//
+
+    app.listen(PORT, function() {
+        console.log("Server is running on port -> " + PORT);
+    } )
+
