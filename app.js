@@ -23,6 +23,8 @@ app.use(cors());
 app.use("/api/v1", User);
 
 app.get("/", (req, res) => {
-    res.send("Server is working ON IT - YEAHHHH!!! ra ra ra  ");
+    res.send("Server is working ON IT - YEAHHHH!!! ra ra ra ra ra    ");
   });
+
+  
 
