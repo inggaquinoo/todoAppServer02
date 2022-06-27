@@ -193,8 +193,7 @@ export const addTask = async(req, res) => {
         
         res
         .status(200)
-        //.json({ success: true, message: "Task added successfulyiinn" });
-        .json({ success: true, message: "este es un nuevo mensaje" });
+        .json({ success: true, message: "Task added successfulyn" });
 
     } catch (error) {
         res.status(500).json({ success: false, message: error.message });
